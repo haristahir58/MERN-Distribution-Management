@@ -1,0 +1,103 @@
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f8f8;
+  }
+  
+  .listContainer {
+    width: 80%;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .productTableTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    color: gray;
+    margin-bottom: 20px;
+  }
+  
+  .newLink {
+    text-decoration: none;
+    color: green;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid green;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .newLink:hover {
+    background-color: #eaf9ea;
+  }
+  
+  .tableContainer {
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 30px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .table th {
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .tableCell {
+    vertical-align: middle;
+  }
+  
+  .deleteButton {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: crimson;
+    background-color: transparent;
+    border: 2px solid rgba(220, 20, 60, 0.6);
+    cursor: pointer;
+    box-sizing: border-box;
+    line-height: 1;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .deleteButton:hover {
+    background-color: rgba(220, 20, 60, 0.1);
+  }
+  
+  .buttonLink {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: crimson;
+    background-color: transparent;
+    border: 2px solid rgba(220, 20, 60, 0.6);
+    cursor: pointer;
+    box-sizing: border-box;
+    line-height: 1;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buttonLink:hover {
+    background-color: rgba(220, 20, 60, 0.1);
+  }
+  
